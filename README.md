@@ -8,6 +8,7 @@ An [MCP (Model Context Protocol)](https://modelcontextprotocol.ai) server that p
   - Modifies browser fingerprints to appear as regular user traffic
   - Handles WebGL, canvas, font, plugin and other browser fingerprinting techniques
 - **Screenshot Tool**: Take full-page or element-specific screenshots of any website
+  - Supports both headless (default) and visible browser modes
 - **MCP Integration**: Exposes browser capabilities via Model Context Protocol
 
 ## Installation
@@ -40,6 +41,7 @@ Parameters:
 - `url` (string, required): The URL to navigate to
 - `fullPage` (boolean, optional, default: true): Whether to capture the entire page
 - `selector` (string, optional): CSS selector to capture only a specific element
+- `headless` (boolean, optional, default: true): Whether to run in headless mode or visible browser mode
 
 ## Technical Details
 

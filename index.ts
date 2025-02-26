@@ -19,11 +19,12 @@ server.addTool({
   parameters: z.object({
     url: z.string().describe('URL to navigate to'),
     fullPage: z.boolean().default(true).describe('Whether to take a screenshot of the full page'),
-    selector: z.string().optional().describe('CSS selector to screenshot a specific element')
+    selector: z.string().optional().describe('CSS selector to screenshot a specific element'),
+    headless: z.boolean().default(true).describe('Whether to run browser in headless mode (default) or visible mode')
   }),
-  execute: async ({ url, fullPage = true, selector }) => {
+  execute: async ({ url, fullPage = true, selector, headless = true }) => {
     // Launch browser with stealth mode
-    const browser = await chromium.launch({ headless: true });
+    const browser = await chromium.launch({ headless });
     try {
       const page = await browser.newPage();
       
