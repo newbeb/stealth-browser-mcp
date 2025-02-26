@@ -1,0 +1,31 @@
+{
+  "name": "stealth-browser-mcp",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "module": "index.ts",
+  "author": "Brian Lloyd-Newberry",
+  "email": "newbeb@gmail.com",
+  "description": "A MCP Server that provides browser access through playwright with \"stealth mode\" enabled.",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "fastmcp dev index.ts",
+    "inspect": "fastmcp inspect index.ts"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "0.4.1",
+    "@types/bun": "latest",
+    "@wong2/mcp-cli": "1.4.0",
+    "tsx": "^4.19.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "fastmcp": "^1.19.0",
+    "playwright": "^1.50.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "zod": "^3.24.2"
+  }
+}
