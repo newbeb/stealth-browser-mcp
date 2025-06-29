@@ -1,12 +1,23 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/newbeb-stealth-browser-mcp-badge.png)](https://mseep.ai/app/newbeb-stealth-browser-mcp)
 
 # Stealth Browser MCP Server
 
-An [MCP (Model Context Protocol)](https://modelcontextprotocol.ai) server that provides stealth browser capabilities using Playwright with anti-detection techniques. This server allows MCP clients to navigate to websites and take screenshots while evading common bot detection systems.
+<details>
+  <summary>Badges</summary>
 
-<a href="https://glama.ai/mcp/servers/efxcqjoq01">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/efxcqjoq01/badge" alt="Stealth Browser Server MCP server" />
-</a>
+  <table>
+    <tbody><tr>
+      <td>
+        <a href="https://mseep.ai/app/newbeb-stealth-browser-mcp"><img src="https://mseep.net/pr/newbeb-stealth-browser-mcp-badge.png" width="120" height="32" alt="MseeP.ai Security Assessment Badge"></a>
+      </td>
+      <td>
+        <a href="https://glama.ai/mcp/servers/efxcqjoq01"><img src="https://glama.ai/mcp/servers/efxcqjoq01/badge" width="120" height="32" alt="Stealth Browser Server MCP server"></a>
+      </td>
+    </tr></tbody>
+  </table>
+
+</details>
+
+An [MCP (Model Context Protocol)](https://modelcontextprotocol.ai) server that provides stealth browser capabilities using Playwright with anti-detection techniques. This server allows MCP clients to navigate to websites and take screenshots while evading common bot detection systems.
 
 ## Features
 
