@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/newbeb-stealth-browser-mcp-badge.png)](https://mseep.ai/app/newbeb-stealth-browser-mcp)
+
 # Stealth Browser MCP Server
 
 An [MCP (Model Context Protocol)](https://modelcontextprotocol.ai) server that provides stealth browser capabilities using Playwright with anti-detection techniques. This server allows MCP clients to navigate to websites and take screenshots while evading common bot detection systems.
